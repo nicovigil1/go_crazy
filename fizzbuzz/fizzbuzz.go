@@ -8,12 +8,12 @@ import ("os"
 func main() {
 	for _, j := range buildArray() { 
 		switch {
+		case j % 15 == 0:
+			fmt.Println("fizz buzz")
 		case j % 3 == 0:
 			fmt.Println("fizz")
 		case j % 5 == 0:
 			fmt.Println("buzz")
-		case j % 15 == 0:
-			fmt.Println("fizz buzz")
 		default:
 			fmt.Println(j) 
 		}
