@@ -12,6 +12,8 @@ func main() {
 			fmt.Println("fizz")
 		case j % 5 == 0:
 			fmt.Println("buzz")
+		case j % 15 == 0:
+			fmt.Println("fizz buzz")
 		default:
 			fmt.Println(j) 
 		}
