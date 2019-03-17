@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	
-	"github.com/nicovigil1/stringutil"
+	"github.com/nicovigil1/go_crazy/stringutil"
 )
 
 func main() {
