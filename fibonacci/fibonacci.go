@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	last := 0
 	first, second := 1, 1
-	for i := 0; last < 10; i++ {
+	for last < 10 {
 		if first + second == 2 {
 			fmt.Println(first)
 			fmt.Println(second)
